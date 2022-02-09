@@ -1,0 +1,154 @@
+.drop-box {
+    margin-top: 19px;
+    li {
+        width: 130px;
+        border: solid #1AA6B7;
+        border-width: 4px 2px 2px 2px;
+        border-radius: 0 5px;
+        margin-bottom: 5px;
+    }
+    a {
+        display: inline-block;
+        color:#1AA6B7;
+        font-family: "GraphikRegular";
+        text-decoration: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        &:hover {
+            font-weight: 600; 
+        }
+    }
+}
+
+.drop-box-lang {
+    margin-top: 19px;
+    li {
+        width: 30px;
+        border: solid #1AA6B7;
+        border-width: 4px 2px 2px 2px;
+        border-radius: 0 5px;
+        margin-bottom: 5px;
+    }
+    a {
+        display: inline-block;
+        color:#1AA6B7;
+        font-family: "GraphikRegular";
+        text-decoration: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        &:hover {
+            font-weight: 600; 
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.drop-box_business-types{
+    position: absolute;  
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+
+.nav-item_business-types:hover .drop-box_business-types{
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+    .nav-item-link::after {
+        width: 0;
+    }
+}
+
+
+
+
+.drop-box_products{
+    position: absolute;  
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+
+.nav-item_products:hover .drop-box_products{
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.drop-box_resources{
+    position: absolute;  
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+
+.nav-item_resources:hover .drop-box_resources{
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.drop-box_en,
+.drop-box_ru,
+.drop-box_bg,
+.lang_ru,
+.lang_bg {
+    position: absolute;  
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+
+.lang_en:hover .drop-box_en {
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.drop-box_ru {
+    position: absolute;  
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+
+.lang_ru:hover .drop-box_ru {
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.drop-box_bg {
+    position: absolute;  
+    transform: translateY(50px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+
+.lang_bg:hover .drop-box_bg {
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}

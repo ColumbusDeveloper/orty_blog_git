@@ -1,0 +1,254 @@
+.footer {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-part-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-part-item:not(:first-child){
+    margin-left: 65px;
+}
+
+.footer-left-part {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+        margin-bottom: 15px;
+    }
+    a {
+        font-size: 0.89em;
+        color: #3D474B;
+        text-decoration: none;
+        line-height: 1.33em;
+        &:hover {
+            color:#F36B2F;
+        }
+    }
+    
+}
+
+.footer-left-part-item li:nth-child(1) {
+    
+    
+    a{
+        line-height: 1.1em;
+        color: #7E8892;  
+        &:hover {
+            color: #F36B2F;
+        }
+    }
+    
+}
+
+.footer-left-part-item4 li:nth-child(4){
+  
+    
+    a{
+        line-height: 1.1em;
+        color: #7E8892;  
+        &:hover {
+            color: #F36B2F;
+        }
+    }
+    
+}
+
+.footer-left-part-item5-adaptive {
+    display: none;
+}
+
+.footer-right-part-adaptive-block {
+    display: none;
+}
+
+.footer-right-part {
+    display: flex;
+    flex-direction: column;
+    li {
+        margin-bottom: 17px;
+    }
+    a {
+    color: #3D474B;
+        &:hover {
+            color: #F36B2F;
+        }
+    }
+    
+    img {
+        transform: scale(1);
+        transition: 0.2s;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.download_pos,
+.download_kds {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-right-part .copyright {
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 0.78em;
+    line-height: 1.22em;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.footer-right-part .reserved
+{
+    a {
+        font-size: 0.78em;
+        line-height: 1.22em;
+        text-decoration: none;
+    }
+    
+}
+
+.footer-right-part-adaptive-block-text .copyright1 {
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 0.78em;
+    line-height: 1.22em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.footer-right-part-adaptive-block-text .reserved1{
+    font-size: 0.78em;
+    line-height: 1.22em;
+    text-decoration: none;  
+    color: inherit;
+}
+
+.link_pos,
+.link_kds {
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-right-part-adaptive-block-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right-part-adaptive-block {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+
+@media (max-width:940px) {
+    .footer-container {
+        display: block;
+    }
+
+    .footer-left-part-item li:nth-child(1) {
+        width: 131px; 
+    }
+    
+    .footer-left-part-item4 li:nth-child(4){
+        width: 131px;
+    }
+    
+    .footer-left-part-item:not(:first-child){
+        margin-left: 0px;
+    }
+
+    .footer-right-part {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    .footer-right-part-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+ 
+}
+
+@media (max-width:600px) {
+    .footer-right-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-right-part .copyright {
+        display: none;
+    }
+
+    .footer-right-part .reserved {
+        display: none;
+    }
+
+    .footer-right-part-adaptive-block {
+        display: block;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .footer-right-part-adaptive-block-text {
+        margin-left: 10px;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    
+    .footer-left-part-item4-adaptive {
+        display: none;
+    }
+
+    .footer-left-part-item5-adaptive {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        li {
+            width: 131px;
+            transform: scale(1);
+            transition: 0.2s;
+            &:hover {
+                transform: scale(1.1);
+            }
+            .contacts1 {
+                line-height: 1.1em;
+                color: #7E8892;  
+            }
+        }
+    }
+   
+}
+
+    
+
+
