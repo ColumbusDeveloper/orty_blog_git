@@ -1,0 +1,13 @@
+{
+	
+	"Навигация для сайта орти блог": {
+		"scope": "html",
+		"prefix": "onav",
+		"body": [
+			"<nav class=\"nav\">",
+			"navigation",
+			"</nav>",
+		],
+		"description": "Log output to console"
+	}
+}
